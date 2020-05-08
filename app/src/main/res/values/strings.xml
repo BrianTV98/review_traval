@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ReviewTraval</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Đăng nhập</string>
+    <string name="register">Đăng ký</string>
+    <string name="forgot_password">Quên mật khẩu</string>
+    <string name="username">username</string>
+    <string name="password">Password</string>
+    <string name="save_password">Lưu mật khẩu</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="not_empty">Không được để trông fiel này</string>
+    <string name="not_password">Mật khẩu không hợp lệ</string>
+    <string name="not_email">Email không hợp lệ</string>
+</resources>
