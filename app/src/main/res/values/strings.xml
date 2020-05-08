@@ -15,4 +15,13 @@
     <string name="not_empty">Không được để trông fiel này</string>
     <string name="not_password">Mật khẩu không hợp lệ</string>
     <string name="not_email">Email không hợp lệ</string>
+    <string name="home">home</string>
+    <string name="image_for_review">image for review</string>
+    <string name="avata_of_owner">avata of owner</string>
+    <string name="show_more">Xem thêm</string>
+    <string name="show_less">Ẩn bớt</string>
+    <string name="like">Like</string>
+    <string name="comment">Comment</string>
+    <string name="share">Share</string>
+    <string name="input_commnet">input comment</string>
 </resources>

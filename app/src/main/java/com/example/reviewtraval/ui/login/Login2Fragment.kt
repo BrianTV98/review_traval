@@ -51,7 +51,7 @@ class Login2Fragment : Fragment(), LoginListener {
 //            navController.popBackStack(R.id.main_fragment, false)
 //        })
 
-        val navController = findNavController()
+
         viewModel.authenticationState.observe(viewLifecycleOwner, Observer { authenticationState ->
             when (authenticationState) {
                 LoginViewModel.AuthenticationState.AUTHENTICATED -> findNavController().navigate(R.id.newFeedFragment)

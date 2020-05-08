@@ -2,4 +2,7 @@
 <resources>
     <dimen name="default_margin_all_16dp">16dp</dimen>
     <dimen name="defalt_margin_large_32dp">32dp</dimen>
+    <dimen name="default_icon_avata_small">50dp</dimen>
+    <dimen name="default_margin_small_8dp">8dp</dimen>
+    <dimen name="default_pading_small">8dp</dimen>
 </resources>

@@ -1,18 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
-
+        <variable
+            name="newFeedListener"
+            type="com.example.reviewtraval.ui.newFeed.NewFeedListener" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.NewFeed.NewFeedFragment">
+        tools:context=".ui.newFeed.NewFeedFragment">
 
+    <FrameLayout
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/container"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/bottom_navtigation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navtigation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:menu="@menu/navigation"
+        android:onClick="@{newFeedListener::bottomView}"
+        app:labelVisibilityMode="selected"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
